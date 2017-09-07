@@ -11,11 +11,11 @@ class App extends Component {
   }
 
   render () {
-
-      <div>
-        Diaman UI Module
-      </div>
-    );
+      return (
+        <div>
+          Diaman UI Module
+        </div>
+      );
   }
 }
 
