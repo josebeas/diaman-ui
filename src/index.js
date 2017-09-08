@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 
+import Start from './components/start';
 
 
 
@@ -12,9 +13,7 @@ class App extends Component {
 
   render () {
       return (
-        <div>
-          Diaman UI Module
-        </div>
+          <Start />
       );
   }
 }
