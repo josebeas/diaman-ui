@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 
-import StartLinksBar from './start-link-bar';
-import TeamMember from './team-member';
+import StartLinksBar from './../start-link-bar';
+import TeamMember from './../team-member';
 
-class TeamMemberSection extends Component {
+class TeamMembers extends Component {
 
   constructor(props){
     super(props);
@@ -39,4 +39,4 @@ class TeamMemberSection extends Component {
   }
 }
 
-export default TeamMemberSection;
+export default TeamMembers;

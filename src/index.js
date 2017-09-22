@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 
-import Start from './components/start';
-
-
+import Application from './components/application';
 
 class App extends Component {
 
@@ -13,7 +11,7 @@ class App extends Component {
 
   render () {
       return (
-          <Start />
+          <Application />
       );
   }
 }

@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 
-import Application from './application';
-
-class Start extends Component {
+class ProcessMenu extends Component {
 
   constructor(props){
     super(props);
@@ -11,10 +9,11 @@ class Start extends Component {
   render(){
     return (
       <div>
-        <Application />
+        Process Menu
       </div>
     );
   }
+
 }
 
-export default Start;
+export default ProcessMenu;

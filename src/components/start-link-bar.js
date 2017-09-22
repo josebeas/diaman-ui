@@ -8,12 +8,10 @@ class StartLinksBar extends Component {
 
   render(){
     return (
-      <div className="start-links-bar">
-        <ul>
-          <li><a href="#">Who we are</a></li>
-          <li><a href="#">Contact</a></li>
-          <li><a href="#">Login</a></li>
-        </ul>
+      <div className="row justify-content-md-center align-items-center">
+          <div className="col-md-auto"><a href="#">Who we are</a></div>
+          <div className="col-md-auto"><a href="#">Contact</a></div>
+          <div className="col-md-auto"><a href="#">Login</a></div>
       </div>
     );
   }
